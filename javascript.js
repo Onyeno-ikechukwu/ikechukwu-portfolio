@@ -8,9 +8,9 @@ window.addEventListener("load", function() {
     // Completely remove it from the layout after the fade
     setTimeout(function() {
       loader.style.display = "none";
-    }, 500); 
+    }, 400); 
     
-  }, 1500); 
+  }, 1000); 
 });
 
 
@@ -78,4 +78,5 @@ tl.from(".img6", {
   x: 100, 
   opacity: 0,
   duration: 3
+
 }, 0);
