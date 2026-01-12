@@ -23,6 +23,9 @@ img {
     .welcome{
     display: none;
   }
+    .two1{
+    width: 90%;
+  }
 }
 .first{
   display: flex;
@@ -342,6 +345,7 @@ img {
   50% { transform: scale(1.5); opacity: 1.5; }
   100% { transform: scale(0.8); opacity: 0.8; }
 }
+
 
 
 
