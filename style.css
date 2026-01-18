@@ -5,12 +5,7 @@
   font-family: "Poppins", sans-serif;
   /* width: 100%; */
 }
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 
 img {
     max-width: 100%;
@@ -22,6 +17,12 @@ img {
     }
     .welcome{
     display: none;
+  }
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
    
 }
@@ -50,9 +51,9 @@ img {
 }
 .first3{
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 5%;
 }
-.first1img{
+.first1img1{
   height: 25px;
   width: 25px;
   padding: 5px;
@@ -214,20 +215,7 @@ img {
   color: rgb(28, 1, 51);
   cursor: pointer;
 }
-.first1img1{
-  height: 20px;
-  width: 20px;
-  margin-right: 20px;
-}
-.first1img2{
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
-}
-.first1img3{
-  height: 20px;
-  width: 20px;
-}
+
 .one{
   display: flex;
   flex-wrap: wrap;
@@ -344,6 +332,7 @@ img {
   50% { transform: scale(1.5); opacity: 1.5; }
   100% { transform: scale(0.8); opacity: 0.8; }
 }
+
 
 
 
