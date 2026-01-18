@@ -47,7 +47,7 @@ img {
 }
 .first1{
   margin-right: auto;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 .first3{
   margin-left: auto;
@@ -332,6 +332,7 @@ img {
   50% { transform: scale(1.5); opacity: 1.5; }
   100% { transform: scale(0.8); opacity: 0.8; }
 }
+
 
 
 
